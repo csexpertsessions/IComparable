@@ -1,5 +1,5 @@
 # IComparable
-1. Lav en ny Console App (.NET Fraamework)
+1. Lav en ny Console App (.NET Framework)
 2. Indsæt en generisk liste af typen int og indsæt en talrække i Main metoden
 ```c#
 List<int> tal = new List<int>() { 9,7,5,3,1,2,4,6,8};
