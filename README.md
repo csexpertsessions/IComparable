@@ -1,8 +1,8 @@
 # IComparable
 1. Lav en ny Console App (.NET Framework)
-2. Indsæt en generisk liste af typen int og indsæt en talrække i Main metoden
+2. Indsæt et int array og tildel værdier
 ```c#
-List<int> tal = new List<int>() { 9,7,5,3,1,2,4,6,8};
+int[] tal = { 9,7,5,3,1,2,4,6,8};
 ```
 3. Indsæt en `foreach` som gennemløber værdierne og udskriver dem med en `Console.WriteLine`
 4. Kør koden og se svar
@@ -17,7 +17,7 @@ public class Person
    public int alder { get; set; }
 }
 ```
-8. Lav nu en generisk `List` af denne klasse og instansier 3 personer i listen
+8. Lav nu et array af denne klasse og instansier 3 personer i listen
 9. Udskriv listen med en `foreach` sætning
 10. Kan man sorterer listen med en `Array.Sort` før `foreach`
 11. Hvorfor ikke?
